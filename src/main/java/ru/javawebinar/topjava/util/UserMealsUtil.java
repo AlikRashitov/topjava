@@ -37,7 +37,8 @@ public class UserMealsUtil {
             if((!localTime.isBefore(startTime))&&(!localTime.isAfter(endTime))) userMealWithExceed.add(new UserMealWithExceed(list.getDateTime(), list.getDescription(), list.getCalories(), caloriesPerDay>list.getCalories()));
         }
 
-        return null;
+        System.out.println("");
+        return userMealWithExceed;
 
     }
 }
