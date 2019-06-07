@@ -32,10 +32,7 @@ public class UserMealsUtil {
    /*     for (UserMealWithExceed uu: userMealWithExceeds) {
             System.out.println(uu.getDescription()+ " "+ uu.getCalories()+ " " + uu.isExceed());
         }*/
-/*
-        .toLocalDate();
-        .toLocalTime();
-*/
+
     }
 
     public static List<UserMealWithExceed>  getFilteredWithExceeded(List<UserMeal> mealList, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
